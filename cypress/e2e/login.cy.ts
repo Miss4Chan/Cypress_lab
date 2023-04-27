@@ -9,6 +9,7 @@ describe('template spec', () => {
   testData.loginData.forEach((testcase: { email: string; password: string; }) => {
     it('User should be able to login', () => {
       login.navigateToLoginAndCloseDialog('http://localhost:3000/login#/login');
+      cy.wait(1000);
       login.login(testcase.email, testcase.password);
       login.verifySuccessfullLogin();
     })

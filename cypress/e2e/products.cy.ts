@@ -7,7 +7,7 @@ describe('template spec', () => {
 
   beforeEach(function () {
     login.navigateToLoginAndCloseDialog('http://localhost:3000/login#/login');
-    login.login('sanja.gorgievska@gmail', '#Newuser12#');
+    login.login('test@test.com', 'testtrebadae10');
     login.verifySuccessfullLogin();
   })
 
@@ -23,4 +23,6 @@ describe('template spec', () => {
     products.addItemToBasket('apple juice');
     products.verifyItemAddedToBasket('1');
   })
+
+  
 })

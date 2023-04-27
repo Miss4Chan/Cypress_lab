@@ -1,13 +1,13 @@
 {
     "loginData": [
         {
-            "email": "",
-            "password": ""
+            "email": "test@test.com",
+            "password": "testtrebadae10"
 
         },
         {
-            "email": "",
-            "password": ""
+            "email": "test@test.com",
+            "password": "testtrebadae10"
         }
     ]
-}
+}   
